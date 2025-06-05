@@ -2,7 +2,7 @@ version: "3.12"
 
 services:
   geocoder:
-    image: deypadma/mapbox_geocoder:v1.0.0
+    image: deypadma/mapbox_geocoder:v2.0.0
     build: .
     container_name: mapbox_geocoder
     volumes:
