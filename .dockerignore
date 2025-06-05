@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.xlsx
+sheets_output/
+raw_data/
+.env
+.DS_Store

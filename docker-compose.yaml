@@ -1,0 +1,26 @@
+version: "3.12"
+
+services:
+  geocoder:
+    image: deypadma/mapbox_geocoder:v1.0.0
+    build: .
+    container_name: mapbox_geocoder
+    volumes:
+      - ./raw_data:/app/raw_data
+      - ./sheets_output:/app/sheets_output
+    env_file:
+      - .env
+    restart: on-failure
+
+
+# docker compose build
+# docker push deypadma/mapbox_geocoder:v1.0.0
+# docker pull deypadma/mapbox_geocoder:v1.0.0
+
+# docker run -it ^
+#   -v "%cd%\raw_data:/app/raw_data" ^
+#   -v "%cd%\sheets_output:/app/sheets_output" ^
+#   --env-file .env ^
+#   deypadma/mapbox_geocoder:v1.0.0
+
+# docker exec -it 45b7 bash

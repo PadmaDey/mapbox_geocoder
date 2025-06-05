@@ -192,3 +192,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+
+brc_venv/
+**/__pycache__/
+.env
+sheets_output/
+BRC_Fund.ipynb
+raw_data/
