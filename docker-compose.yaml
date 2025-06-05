@@ -13,7 +13,7 @@ services:
     restart: on-failure
 
 
-# docker compose build
+# docker compose build --no-cache
 # docker push deypadma/mapbox_geocoder:v1.0.0
 # docker pull deypadma/mapbox_geocoder:v1.0.0
 

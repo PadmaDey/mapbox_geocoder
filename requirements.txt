@@ -23,9 +23,11 @@ Levenshtein==0.27.1
 matplotlib-inline==0.1.7
 multidict==6.4.4
 nest-asyncio==1.6.0
-numpy==2.2.6
+# numpy==2.2.6
+numpy>=1.26.0
 openpyxl==3.1.5
-pandas==2.2.3
+# pandas==2.2.3
+pandas>=2.1.0
 parso==0.8.4
 prompt_toolkit==3.0.48
 propcache==0.3.1
@@ -36,7 +38,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 python-Levenshtein==0.27.1
 pytz==2025.2
-pywin32==308
+# pywin32==308
 pyzmq==26.2.0
 RapidFuzz==3.13.0
 requests==2.32.3
