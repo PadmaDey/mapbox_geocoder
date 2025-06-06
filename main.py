@@ -21,9 +21,9 @@ async def main():
         csv_files = await asyncio.gather(*tasks)
 
     # Combine all CSVs into one
-    combined_df = pd.concat([pd.read_csv(f) for f in csv_files], ignore_index=True)
-    combined_csv_path = os.path.join(output_dir, "combined_output.csv")
-    combined_df.to_csv(combined_csv_path, index=False)
+    # combined_df = pd.concat([pd.read_csv(f) for f in csv_files], ignore_index=True)
+    # combined_csv_path = os.path.join(output_dir, "combined_output.csv")
+    # combined_df.to_csv(combined_csv_path, index=False)
 
     print("All sheets processed and exported successfully.")
 
