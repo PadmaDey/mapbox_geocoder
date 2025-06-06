@@ -200,5 +200,5 @@ brc_venv/
 **/__pycache__/
 .env
 sheets_output/
-BRC_Fund.ipynb
+# BRC_Fund.ipynb
 raw_data/
